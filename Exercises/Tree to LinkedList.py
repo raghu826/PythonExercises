@@ -42,6 +42,17 @@ class BinaryTreeToDLL:
 
         # display() will print out the nodes of the list
 
+    def display(self):
+        # Node current will point to head
+        current = self.head;
+        if (self.head == None):
+            print("List is empty");
+            return;
+        print("Nodes of generated doubly linked list: ");
+        while (current != None):
+            # Prints each node by incrementing pointer.
+            print(current.data),
+            current = current.right;
 
 
 bt = BinaryTreeToDLL();
