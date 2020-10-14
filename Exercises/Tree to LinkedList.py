@@ -42,7 +42,6 @@ class BinaryTreeToDLL:
 
         # display() will print out the nodes of the list
 
-   
 
 
 bt = BinaryTreeToDLL();
