@@ -25,7 +25,7 @@ class BinaryTreeToDLL:
         self.convertbtToDLL(node.left);
 
         # If list is empty, add node as head of the list
-        if (self.head == None):
+        if self.head == None:
             # Both head and tail will point to node
             self.head = self.tail = node;
             # Otherwise, add node to the end of the list
@@ -45,11 +45,12 @@ class BinaryTreeToDLL:
     def display(self):
         # Node current will point to head
         current = self.head;
-        if (self.head == None):
+        if self.head == None:
             print("List is empty");
             return;
         print("Nodes of generated doubly linked list: ");
-        while (current != None):
+
+        while current != None:
             # Prints each node by incrementing pointer.
             print(current.data),
             current = current.right;
