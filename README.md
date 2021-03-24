@@ -1,4 +1,4 @@
-##This repository contains python scripts on different amusement games are as follows:
+## This repository contains python scripts on different amusement games are as follows:
   
   - [Rock Paper scissor](https://github.com/raghu826/RockPaperScissor/blob/master/Rock-Paper-Scissor/main.py) : This is a famous childrens game played by using hand gesture
   - Calculator : script to perform basic computations
